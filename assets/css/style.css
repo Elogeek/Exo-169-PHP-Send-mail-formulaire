@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: top;
+    font-family: 'Lemonada', cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+form {
+    border : 3px inset deeppink;
+    text-align: center;
+    margin-top: 2rem;
+    width: 60%;
+    height: 70rem;
+
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    text-decoration: deeppink wavy underline;
+}
+
+input {
+    width: 25%;
+    height: 5rem;
+    margin-top: 2rem;
+}
+
+#prior,#message,#btn {
+    margin-top: 2rem;
+}
+
+#btn,h1 {
+    font-family: 'Lemonada', cursive;
+}
+
+svg {
+    bottom: 0;
+    position: absolute;
+    z-index: -1000;
+}
